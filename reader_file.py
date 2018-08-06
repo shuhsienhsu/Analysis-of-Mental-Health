@@ -42,15 +42,3 @@ response = requests.get(url_taiwan_suiciderate_age)
 if response.status_code == 200:
     with open("taiwan_suiciderate_age.jpg", 'wb') as f:
         f.write(response.content)
-
-
-
-
-
-#output = open('first_edit.csv', 'wb')
-#writer = csv.writer(output)
-#for row in csv.reader(input):
- #   if row[2]!=0:
-  #      writer.writerow(row)
-
-    #text3 = json.load(k)
